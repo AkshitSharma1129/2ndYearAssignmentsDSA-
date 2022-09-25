@@ -54,8 +54,16 @@ void insert_at_head(Node*&head,string name,int age){
 // print from start
 void print_start(Node*head){
     Node*temp=head;
-    while(temp!=NULL){cout<<"[Name:"<<temp->name<<" Age:"<<temp->age<<"]"<<"<=>";temp=temp->next;}
-    cout<<endl;
+    while(temp->next!=NULL){
+        cout<<"[Name:"<<temp->name<<" Age:"<<temp->age<<"]"<<"<=>";
+        temp=temp->next;
+    }
+	
+    //last element without "<=>" at the end
+    if(temp->next==NULL)
+    {
+        cout<<"[Name:"<<temp->name<<" Age:"<<temp->age<<"]";
+    }
 }
 
 //print from end
