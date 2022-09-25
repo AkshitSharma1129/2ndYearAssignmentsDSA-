@@ -37,7 +37,9 @@ void insert_start(Node* &head,string name,int age){
     }
 
     else{
-        while(temp->next!=NULL){temp=temp->next;}
+        while(temp->next!=NULL){
+		temp=temp->next;
+	}
         temp->next=new_node;
         new_node->prev=temp;
     }
@@ -69,7 +71,9 @@ void print_start(Node*head){
 //print from end
 void print_end(Node*head){
     Node*temp=head;
-    while(temp->next!=NULL){temp=temp->next;}
+    while(temp->next!=NULL)
+	    temp=temp->next;
+}
     while(temp!=NULL){cout<<"[Name:"<<temp->name<<" Age:"<<temp->age<<"]"<<"<-s>";temp=temp->prev;}
     cout<<endl;
 }
@@ -84,7 +88,9 @@ void delete_ith(Node*&head,int i){
     }
     else{
         Node*temp=head;
-        for(int j=0;j<i;j++){temp=temp->next;}
+        for(int j=0;j<i;j++){
+		temp=temp->next;
+	}
         temp->prev->next=temp->next;
         temp->next->prev=temp->prev;
         delete temp;
@@ -94,7 +100,9 @@ void delete_ith(Node*&head,int i){
 //delete last element
 void pop(Node*&head){
     Node*temp=head;
-    while(temp->next!=NULL){temp=temp->next;}
+    while(temp->next!=NULL){
+	    temp=temp->next;
+    }
     temp->prev->next=NULL;
     delete temp;
 }
