@@ -9,7 +9,7 @@
 #include <iostream>                   
 using namespace std;                  
 
-// NODE CLASSS
+// creating node class
 class Node{
     public:
     
