@@ -13,7 +13,6 @@ BRANCH - Mechanical
 #include <unordered_map>
 using namespace std;
 
-// CREATING THE FUNCTION SUCH THAT WE ARE NOT PASSING THE SIZE OF THE ARRAY TO THE FUNCTION.
 
 // ::::::::::::::::::::::::::   LINEAR SEARCH  :::::::::::::::::
 
@@ -98,4 +97,5 @@ int main()
     cout << "Index of " << x << " from BINARY SEARCH is : " << binary_search(arr, x) << endl;
 
     delete[] arr;
+    // deleting the array
 }
