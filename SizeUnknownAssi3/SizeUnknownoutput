@@ -1,0 +1,11 @@
+(base) akshitsharma@Akshits-MacBook-Air DSApyCLLG % cd "/Users/akshitsharma/Desktop/DSApyCLLG/" && g++ sizeUnknown.cpp -o sizeUnknown && "/
+Users/akshitsharma/Desktop/DSApyCLLG/"sizeUnknown
+
+Number of elements in an array : 5
+12 34 23 15 35
+Enter the element to search for : 34
+
+Index of 34 from LINEAR SEARCH is : 1
+Index of 34 from BINARY SEARCH is : 1
+
+(base) akshitsharma@Akshits-MacBook-Air DSApyCLLG % 
