@@ -1,0 +1,10 @@
+cd "/Users/akshitsharma/Desktop/DSApyCLLG/" && g++ inplaceOutplace_INPUT_answer.cpp -o inplaceOutplace_INPUT_answer && "/Users/akshitsharma/Desktop/DSApyCLLG/"inplaceOutplace_INPUT_answer
+(base) akshitsharma@Akshits-MacBook-Air DSApyCLLG % cd "/Users/akshitsharma/Desktop/DSApyCLLG/" && g++ inplaceOutplace_INPUT_answer.cpp -o 
+inplaceOutplace_INPUT_answer && "/Users/akshitsharma/Desktop/DSApyCLLG/"inplaceOutplace_INPUT_answer
+ENTER NUMBER OF ELEMENTS IN THE ARRAY: 5 
+ENTER ELEMENTS OF ARRAY SEPERATED BY SPACE: 39 12 45 11 30
+
+ARRAY BEFORE SORTING : 39 12 45 11 30 
+ARRAY AFTER SORTING USING IN-PLACE ALGORITHM : 11 12 30 39 45 
+ARRAY AFTER SORTING USING OUT-PLACE ALGORITHM : 11 12 30 39 45 
+(base) akshitsharma@Akshits-MacBook-Air DSApyCLLG %  
